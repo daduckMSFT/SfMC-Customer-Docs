@@ -1,37 +1,91 @@
-## Welcome to GitHub Pages
+#### Table of contents
 
-You can use the [editor on GitHub](https://github.com/daduckMSFT/SfMC-Customer-Docs/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# Opening quality Support cases for Intune
 
-### Markdown
+*The purpose of this guide is to provide guidance on how to open up great support cases. 
+This will minimize case resolution time, reduce back & forth communications and progress you further into the case from the beginning.*
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Please use the table of contents to skip around this guide as needed.
 
-```markdown
-Syntax highlighted code block
+Additionally, please remember this is not a troubleshooting guide, but rather a guide on opening up high quality cases.
 
-# Header 1
-## Header 2
-### Header 3
+***
 
-- Bulleted
-- List
+# Required for all cases
 
-1. Numbered
-2. List
+Each case has a few **mandatory** things from a high level we will cover:
+ 
+1. The problem
+2. The scope of the problem
+3. Business Impact
 
-**Bold** and _Italic_ and `Code` text
+We will cover all of these in-depth.
 
-[Link](url) and ![Image](src)
-```
+## The problem
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+What is the problem at hand? Be clear and concise - here are some examples.
+* App deployment
+* Device Enrollment
+* Configuration Policy
+* Resource Access (VPN, Wi-Fi)
+* Portal behavior / reporting issues
 
-### Jekyll Themes
+***
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/daduckMSFT/SfMC-Customer-Docs/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Now that we have the basics out of the way – let’s dive into technical information to include in the case.
 
-### Support or Contact
+**Please try to include this information in every case if possible**
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+* What platform is affected? (iOS, Windows, Android)
+* Is this a policy deployment issue? 
+    * If so – what kind of policy? App Protection Policy? SCEP? VPN?
+    * Please include the exact name of the policy in the case.
+* Is there currently an affected device that we can actively use to troubleshoot? 
+* What is the User Principal Name (UPN) of the user who is using it?
+* What is the Intune DeviceId? (Navigate to the device in the Intune Portal, and click on “Hardware”)
+* What is the device serial number?
+* How many users are affected? How many devices?
+* Does this affect the same user on other devices?
+
+Once you have these basics included, you should include the below information as well (where applicable)
+
+[For guidance on  the technical details, click here](#finding-technical-detail). 
+
+Once you have these basics established, 
+
+
+### Finding technical detail
+
+- Devices
+    - Serial Number 
+    - Device Id. 
+    These can be found under the “Hardware” tab
+    - ![A device's Hardware Tab](images/device-details-hardware-tab.png)
+- Users
+    - User Principal Name (e.g., user@domain.com)
+- Applications
+    - The exact name of the application & the platform (e.g., iOS, Windows, Win32, MSI, etc.).
+    - Application ID – found in the URL when you open an app:
+    - ![Showing the ApplicationId in the URL](images/app-id-in-url.png)
+- Policies
+- We just need the *exact name of the policy.*
+
+---
+
+# Management Portal
+Is there a reporting issue in the portal? If you suspect this, <mark>do not open a case – email your SfMC contacts for Intune & consult with them.</mark>
+
+If we do need to open a case for anything in the portal, please include the below (4) details:
+1.	Confirmation that this happens on various browsers (which ones), different IT admins/admin accounts and different networks. 
+2.	The URL/area of the portal that you are seeing the problem
+3.	Screenshots of the problem
+4.	A HAR file taken when you navigate to that area in the portal
+
+**We do not need all of the other technical detail above in most cases, only these (4) things.**
+
+To learn how to capture a HAR trace, watch the quick video below.
+
+<a href="https://www.youtube.com/watch?feature=player_embedded&v=FAQjuPD1Agg" target="_blank"><img src="https://img.youtube.com/vi/FAQjuPD1Agg/0.jpg" alt="a video how-to for gathering HAR logs." width="640" height="480" border="10" /></a>
+
+https://www.youtube.com/watch?v=FAQjuPD1Agg
