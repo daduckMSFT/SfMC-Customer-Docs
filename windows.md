@@ -13,9 +13,7 @@ It does require administrator privileges, however, so it is not always possible 
 
 [You can find the current steps to gather the ODC here](https://github.com/markstan/IntuneOneDataCollector#intune-one-data-collector)
 
-Please gather OneDataCollector logs using the below steps.
-**This will generate a file ending with CollectedData.ZIP**
-**Run the following commands in an elevated PowerShell window:**
+***Please gather ODC logs by running the below in an elevated PowerShell prompt.***
 
 ```PowerShell
 wget https://aka.ms/intunexml -outfile Intune.xml
