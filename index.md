@@ -1,7 +1,7 @@
 #### Table of Contents
 - [All cases](#Opening-quality-Support-cases-for-Intune)
     - [Required info for all cases](#required-for-all-cases)
-    - [Defining the problem](#the-problem)
+    - [Defining the problem](#defining-the-problem)
     - [How to find technical details](#finding-technical-detail)
 - [App Protection Policies](app.md)
 - [Autopilot](autopilot.md)
@@ -32,7 +32,7 @@ Each case has a few **mandatory** things from a high level we will cover:
 
 We will cover all of these in-depth.
 
-## The problem
+## Defining the problem
 
 What is the problem at hand? Be clear and concise - here are some examples.
 * App deployment
