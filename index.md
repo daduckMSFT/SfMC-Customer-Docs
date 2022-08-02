@@ -1,13 +1,14 @@
 #### Table of Contents
-1. [General](#Opening-quality-Support-cases-for-Intune)
-2. [How to find technical details](#finding-technical-detail)
-3. [Required info for all cases](#required-for-all-cases)
-4. [App Protection Policies](app.md)
-5. [Autopilot](autopilot.md)
-6. [Windows](windows.md)
-7. [Android](android.md)
-8. [iOS/macOS/Apple](apple.md)
-9. [Portal/Reporting](portal.md)
+- [All cases](#Opening-quality-Support-cases-for-Intune)
+    - [Required info for all cases](#required-for-all-cases)
+    - [Defining the problem](#the-problem)
+    - [How to find technical details](#finding-technical-detail)
+- [App Protection Policies](app.md)
+- [Autopilot](autopilot.md)
+- [Windows](windows.md)
+- [Android](android.md)
+- [iOS/macOS/Apple](apple.md)
+- [Portal/Reporting](portal.md)
 
 # Opening quality Support cases for Intune
 
