@@ -47,6 +47,8 @@ Now that we have the basics out of the way – let’s dive into technical infor
 
 **Please try to include this information in every case if possible**
 
+* Is this a new implementation of something, or is it something that has broken?
+    * If broken, approximate when did you start seeing issues?
 * What platform is affected? (iOS, Windows, Android)
 * Is this a policy deployment issue? 
     * If so – what kind of policy? App Protection Policy? SCEP? VPN?
@@ -55,8 +57,11 @@ Now that we have the basics out of the way – let’s dive into technical infor
 * What is the User Principal Name (UPN) of the user who is using it?
 * What is the Intune DeviceId? (Navigate to the device in the Intune Portal, and click on “Hardware”)
 * What is the device serial number?
-* How many users are affected? How ma-ny devices?
+* How many users are affected? How many devices?
 * Does this affect the same user on other devices?
+
+
+
 
 Once you have these basics included, you should include the below information as well (where applicable)
 
