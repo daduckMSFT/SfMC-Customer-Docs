@@ -1,10 +1,13 @@
-# Table of Contents
-1. [General](#Opening quality Support cases for Intune)
-2. [Autopilot](autopilot.md)
-3. [Windows](windows.md)
-4. [Android](android.md)
-5. [iOS/macOS/Apple](apple.md)
-6. [Portal/Reporting](portal.md)
+#### Table of Contents
+1. [General](#Opening-quality-Support-cases-for-Intune)
+2. [How to find technical details](#finding-technical-detail)
+3. [Required info for all cases](#required-for-all-cases)
+4. [App Protection Policies](app.md)
+5. [Autopilot](autopilot.md)
+6. [Windows](windows.md)
+7. [Android](android.md)
+8. [iOS/macOS/Apple](apple.md)
+9. [Portal/Reporting](portal.md)
 
 # Opening quality Support cases for Intune
 
@@ -51,7 +54,7 @@ Now that we have the basics out of the way – let’s dive into technical infor
 * What is the User Principal Name (UPN) of the user who is using it?
 * What is the Intune DeviceId? (Navigate to the device in the Intune Portal, and click on “Hardware”)
 * What is the device serial number?
-* How many users are affected? How many devices?
+* How many users are affected? How ma-ny devices?
 * Does this affect the same user on other devices?
 
 Once you have these basics included, you should include the below information as well (where applicable)

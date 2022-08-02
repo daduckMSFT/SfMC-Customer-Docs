@@ -1,4 +1,7 @@
+[Back to main](index.md)
+
 # Management Portal
+
 Is there a reporting issue in the portal? If you suspect this, <mark>do not open a case – email your SfMC contacts for Intune & consult with them.</mark>
 
 These steps are also useful for troubleshooting most things in the portal - HAR files are a great source of information as to what the service is providing your browser. 
