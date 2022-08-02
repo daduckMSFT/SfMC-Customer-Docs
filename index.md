@@ -1,5 +1,10 @@
-#### Table of contents
-
+# Table of Contents
+1. [General](#Opening quality Support cases for Intune)
+2. [Autopilot](autopilot.md)
+3. [Windows](windows.md)
+4. [Android](android.md)
+5. [iOS/macOS/Apple](apple.md)
+6. [Portal/Reporting](portal.md)
 
 # Opening quality Support cases for Intune
 
@@ -9,6 +14,7 @@ This will minimize case resolution time, reduce back & forth communications and 
 Please use the table of contents to skip around this guide as needed.
 
 Additionally, please remember this is not a troubleshooting guide, but rather a guide on opening up high quality cases.
+It will also not contain everything in the scope of Intune - this is just a high-level guide of what to submit for the majority of cases. 
 
 ***
 
@@ -72,20 +78,3 @@ Once you have these basics established,
 - We just need the *exact name of the policy.*
 
 ---
-
-# Management Portal
-Is there a reporting issue in the portal? If you suspect this, <mark>do not open a case – email your SfMC contacts for Intune & consult with them.</mark>
-
-If we do need to open a case for anything in the portal, please include the below (4) details:
-1.	Confirmation that this happens on various browsers (which ones), different IT admins/admin accounts and different networks. 
-2.	The URL/area of the portal that you are seeing the problem
-3.	Screenshots of the problem
-4.	A HAR file taken when you navigate to that area in the portal
-
-**We do not need all of the other technical detail above in most cases, only these (4) things.**
-
-To learn how to capture a HAR trace, watch the quick video below.
-
-<a href="https://www.youtube.com/watch?feature=player_embedded&v=FAQjuPD1Agg" target="_blank"><img src="https://img.youtube.com/vi/FAQjuPD1Agg/0.jpg" alt="a video how-to for gathering HAR logs." width="640" height="480" border="10" /></a>
-
-https://www.youtube.com/watch?v=FAQjuPD1Agg
