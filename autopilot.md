@@ -14,6 +14,8 @@ Collect the following information:
 [Use command to collect logs directly from Windows 10 PCs](https://docs.microsoft.com/en-us/windows/client-management/mdm/diagnose-mdm-failures-in-windows-10#use-command-to-collect-logs-directly-from-windows10-pcs)
 
 Press Shift + F10 during OOBE to launch a command prompt, and then run the below command to generate a diagnostics report:
-`mdmdiagnosticstool.exe -area DeviceEnrollment;DeviceProvisioning;Autopilot -zip c:\users\public\documents\MDMDiagReport.zip`
+```PowerShell
+mdmdiagnosticstool.exe -area DeviceEnrollment;DeviceProvisioning;Autopilot -zip c:\users\public\documents\MDMDiagReport.zip
+```
 
 Upload this file with the case.
